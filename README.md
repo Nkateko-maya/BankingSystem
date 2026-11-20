@@ -4,6 +4,8 @@ A simple command-line banking application written in **C++**. It simulates an AT
 
 This project is great for learning core C++ concepts such as arrays, functions, loops, input validation, and pass-by-reference.
 
+---
+
 ## Features
 
 - **Secure login** with account number and PIN (3 attempts max)
@@ -13,19 +15,21 @@ This project is great for learning core C++ concepts such as arrays, functions, 
 - **Check balance** at any time
 - **Input validation** for menu choices, amounts, and recipient accounts
 
+---
 
 ## Requirements
 
 - A C++ compiler that supports C++11 or later (e.g. `g++`, `clang++`, MSVC)
 
+---
 
 ## Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/Nkateko-maya/BankingSystem.git
+cd BankingSystem
 ```
 
 ### 2. Compile
@@ -41,7 +45,7 @@ g++ main.cpp -o gcc_bank
 gcc_bank.exe      # Windows
 ```
 
-
+---
 
 ## Demo Accounts
 
@@ -53,6 +57,7 @@ Use these test accounts to try out the program:
 | Lerato Dlamini  | 369122         | 5678 | R1500.00         |
 | Sipho Nkosi     | 481215         | 9012 | R500.00          |
 
+---
 
 ## How It Works
 
@@ -81,6 +86,7 @@ Use these test accounts to try out the program:
 ```
 .
 ├── main.cpp      # All source code
+____Documentation  # PDF
 └── README.md     # Project documentation
 ```
 
@@ -96,7 +102,7 @@ Use these test accounts to try out the program:
 | `sendCash()`         | Transfers money between two accounts                     |
 | `checkBalance()`     | Displays the current balance                             |
 
-
+---
 
 ## Author
 
