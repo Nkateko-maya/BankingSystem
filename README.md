@@ -96,13 +96,7 @@ Use these test accounts to try out the program:
 | `sendCash()`         | Transfers money between two accounts                     |
 | `checkBalance()`     | Displays the current balance                             |
 
----
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
 
 ## Author
 
